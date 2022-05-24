@@ -1,0 +1,19 @@
+{
+  "name": "RetorioTaskBackend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "author": "Safouene Abbachi",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+
+}
